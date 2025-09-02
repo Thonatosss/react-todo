@@ -57,7 +57,7 @@ function App() {
     setTodo(prev => prev.map((todo) => todo.id === id ? {...todo, isFavourite: !todo.isFavourite} : todo))
   }
   return (
-    <div className="p-10 flex flex-col items-center font-display rounded-3xl relative z-10">
+    <div className=" p-3 flex flex-col items-center font-jet-brains rounded-3xl relative z-10 lg:p-30">
       <Title>Todo App</Title>
       <SearchBar createTodo={createTodo} />
       {todoList.length > 0 && (

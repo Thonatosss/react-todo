@@ -27,7 +27,7 @@ function TodoElement({
     <li
       className={`rounded-md ${
         isDone ? "bg-green-100 text-gray-500" : "bg-transparent text-text-primary"
-      } p-2 relative lg:p-4 border-purple-950/60 border`}
+      } p-2 relative lg:p-4 border-purple-950/60 border w-full`}
     >
       {isEditing ? (
         <div className="flex justify-between gap-1">
@@ -38,13 +38,13 @@ function TodoElement({
           ></input>
           <div className="flex gap-1 text-white">
             <button
-              className="bg-accent-purple cursor-pointer bg-button-color w-12 rounded-sm text-sm sm:w-15 lg:w-20 lg:text-base xl:w-22 "
+              className="font-jet-brains cursor-pointer bg-button-color w-12 rounded-sm text-sm sm:w-15 lg:w-20 lg:text-base xl:w-22 "
               onClick={() => handleSave()}
             >
               Save
             </button>
             <button
-              className="bg-accent-purple cursor-pointer bg-button-color w-12 rounded-sm text-sm sm:w-15 lg:w-20 lg:text-base xl:w-22 "
+              className="font-jet-brains cursor-pointer bg-button-color w-12 rounded-sm text-sm sm:w-15 lg:w-20 lg:text-base xl:w-22 "
               onClick={() => setEdit(false)}
             >
               Cancel
@@ -75,13 +75,13 @@ function TodoElement({
           <div className="flex gap-1">
             {" "}
             <button
-              className="bg-accent-purple cursor-pointer bg-button-color h-10 rounded-sm text-white w-12 text-sm sm:w-15 lg:w-20 lg:text-base xl:w-22  "
+              className="font-jet-brains cursor-pointer bg-button-color h-10 rounded-sm text-white w-12 text-sm sm:w-15 lg:w-20 lg:text-base xl:w-22  "
               onClick={() => deleteTodo(id)}
             >
               Delete
             </button>
             <button
-              className="bg-accent-purple cursor-pointer bg-button-color h-10 rounded-sm text-white w-12 text-sm sm:w-15 lg:w-20 lg:text-base xl:w-22  "
+              className="font-jet-brains cursor-pointer bg-button-color h-10 rounded-sm text-white w-12 text-sm sm:w-15 lg:w-20 lg:text-base xl:w-22  "
               onClick={() => {
                 setNewText(todoText);
                 setEdit(true);
@@ -109,7 +109,7 @@ export function TodoList({
 
   return (
     <>
-      <ul className="flex flex-col mt-7 w-full gap-5 shadow-xs p-10 sm:w-[85%] xl:w-[60%] lg:gap-8">
+      <ul className="flex flex-col mt-7 w-full gap-5 shadow-xs p-10 xl:w-[60%] lg:gap-8">
         {favourites.map((todo) => (
           <TodoElement
             key={todo.id}
