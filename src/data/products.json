@@ -1,0 +1,1308 @@
+{
+  "status": "success",
+  "timestamp": "2025-08-18T11:59:33.607753Z",
+  "data": {
+    "products": [
+      {
+        "id": "p-201",
+        "title": "Logitech Mechanical Keyboard",
+        "price": 30.27,
+        "currency": "USD",
+        "inStock": false,
+        "category": "peripherals",
+        "brand": "Logitech",
+        "rating": 3.5,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-202",
+        "title": "LG 24\" IPS Monitor",
+        "price": 160.35,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "LG",
+        "rating": 4.1,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-203",
+        "title": "Crucial NVMe SSD 1TB",
+        "price": 57.12,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "Crucial",
+        "rating": 4.1,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-204",
+        "title": "Corsair Wired Keyboard",
+        "price": 40.65,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Corsair",
+        "rating": 4.2,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-205",
+        "title": "Dell 27\" Gaming Monitor",
+        "price": 190.93,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "Dell",
+        "rating": 4.2,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-206",
+        "title": "Kingston External SSD 1TB",
+        "price": 68.39,
+        "currency": "USD",
+        "inStock": false,
+        "category": "storage",
+        "brand": "Kingston",
+        "rating": 4.0,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-207",
+        "title": "Keychron Gaming Mouse",
+        "price": 51.12,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Keychron",
+        "rating": 4.4,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-208",
+        "title": "Acer 34\" Ultrawide Monitor",
+        "price": 220.93,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "Acer",
+        "rating": 4.7,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-209",
+        "title": "Samsung SATA SSD 1TB",
+        "price": 78.29,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "Samsung",
+        "rating": 4.3,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-210",
+        "title": "Razer RGB Mouse Pad",
+        "price": 61.56,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Razer",
+        "rating": 4.7,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-211",
+        "title": "Samsung 27\" IPS Monitor",
+        "price": 250.18,
+        "currency": "USD",
+        "inStock": false,
+        "category": "displays",
+        "brand": "Samsung",
+        "rating": 4.5,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-212",
+        "title": "WD External SSD 2TB",
+        "price": 88.67,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "WD",
+        "rating": 4.9,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-213",
+        "title": "Logitech Wireless Mouse",
+        "price": 72.62,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Logitech",
+        "rating": 3.6,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-214",
+        "title": "LG 32\" 4K Monitor",
+        "price": 280.14,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "LG",
+        "rating": 5.0,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-215",
+        "title": "Crucial Portable HDD 2TB",
+        "price": 99.09,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "Crucial",
+        "rating": 3.7,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-216",
+        "title": "Corsair Mechanical Keyboard",
+        "price": 82.75,
+        "currency": "USD",
+        "inStock": false,
+        "category": "peripherals",
+        "brand": "Corsair",
+        "rating": 3.9,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-217",
+        "title": "Dell 24\" IPS Monitor",
+        "price": 310.77,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "Dell",
+        "rating": 3.9,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-218",
+        "title": "Kingston NVMe SSD 1TB",
+        "price": 109.94,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "Kingston",
+        "rating": 4.1,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-219",
+        "title": "Keychron Wired Keyboard",
+        "price": 93.37,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Keychron",
+        "rating": 3.9,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-220",
+        "title": "Acer 27\" Gaming Monitor",
+        "price": 340.0,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "Acer",
+        "rating": 4.1,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-221",
+        "title": "Samsung External SSD 1TB",
+        "price": 120.32,
+        "currency": "USD",
+        "inStock": false,
+        "category": "storage",
+        "brand": "Samsung",
+        "rating": 4.4,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-222",
+        "title": "Razer Gaming Mouse",
+        "price": 103.59,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Razer",
+        "rating": 4.3,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-223",
+        "title": "Samsung 34\" Ultrawide Monitor",
+        "price": 370.59,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "Samsung",
+        "rating": 4.2,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-224",
+        "title": "WD SATA SSD 1TB",
+        "price": 130.64,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "WD",
+        "rating": 4.7,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-225",
+        "title": "Logitech RGB Mouse Pad",
+        "price": 114.36,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Logitech",
+        "rating": 4.6,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-226",
+        "title": "LG 27\" IPS Monitor",
+        "price": 150.45,
+        "currency": "USD",
+        "inStock": false,
+        "category": "displays",
+        "brand": "LG",
+        "rating": 4.4,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-227",
+        "title": "Crucial External SSD 2TB",
+        "price": 53.54,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "Crucial",
+        "rating": 4.7,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-228",
+        "title": "Corsair Wireless Mouse",
+        "price": 37.58,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Corsair",
+        "rating": 4.9,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-229",
+        "title": "Dell 32\" 4K Monitor",
+        "price": 180.72,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "Dell",
+        "rating": 5.0,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-230",
+        "title": "Kingston Portable HDD 2TB",
+        "price": 64.37,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "Kingston",
+        "rating": 4.8,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-231",
+        "title": "Keychron Mechanical Keyboard",
+        "price": 48.07,
+        "currency": "USD",
+        "inStock": false,
+        "category": "peripherals",
+        "brand": "Keychron",
+        "rating": 5.0,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-232",
+        "title": "Acer 24\" IPS Monitor",
+        "price": 210.29,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "Acer",
+        "rating": 5.0,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-233",
+        "title": "Samsung NVMe SSD 1TB",
+        "price": 74.82,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "Samsung",
+        "rating": 3.7,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-234",
+        "title": "Razer Wired Keyboard",
+        "price": 58.51,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Razer",
+        "rating": 3.9,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-235",
+        "title": "Samsung 27\" Gaming Monitor",
+        "price": 240.18,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "Samsung",
+        "rating": 3.8,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-236",
+        "title": "WD External SSD 1TB",
+        "price": 85.92,
+        "currency": "USD",
+        "inStock": false,
+        "category": "storage",
+        "brand": "WD",
+        "rating": 3.8,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-237",
+        "title": "Logitech Gaming Mouse",
+        "price": 68.89,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Logitech",
+        "rating": 4.2,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-238",
+        "title": "LG 34\" Ultrawide Monitor",
+        "price": 270.47,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "LG",
+        "rating": 4.4,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-239",
+        "title": "Crucial SATA SSD 1TB",
+        "price": 96.08,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "Crucial",
+        "rating": 4.1,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-240",
+        "title": "Corsair RGB Mouse Pad",
+        "price": 79.78,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Corsair",
+        "rating": 4.3,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-241",
+        "title": "Dell 27\" IPS Monitor",
+        "price": 300.29,
+        "currency": "USD",
+        "inStock": false,
+        "category": "displays",
+        "brand": "Dell",
+        "rating": 4.8,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-242",
+        "title": "Kingston External SSD 2TB",
+        "price": 106.9,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "Kingston",
+        "rating": 4.6,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-243",
+        "title": "Keychron Wireless Mouse",
+        "price": 90.45,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Keychron",
+        "rating": 4.9,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-244",
+        "title": "Acer 32\" 4K Monitor",
+        "price": 330.66,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "Acer",
+        "rating": 4.7,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-245",
+        "title": "Samsung Portable HDD 2TB",
+        "price": 116.64,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "Samsung",
+        "rating": 4.7,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-246",
+        "title": "Razer Mechanical Keyboard",
+        "price": 100.0,
+        "currency": "USD",
+        "inStock": false,
+        "category": "peripherals",
+        "brand": "Razer",
+        "rating": 3.7,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-247",
+        "title": "Samsung 24\" IPS Monitor",
+        "price": 360.78,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "Samsung",
+        "rating": 4.9,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-248",
+        "title": "WD NVMe SSD 1TB",
+        "price": 127.13,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "WD",
+        "rating": 3.5,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-249",
+        "title": "Logitech Wired Keyboard",
+        "price": 111.11,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Logitech",
+        "rating": 3.7,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-250",
+        "title": "LG 27\" Gaming Monitor",
+        "price": 390.06,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "LG",
+        "rating": 4.0,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-251",
+        "title": "Crucial External SSD 1TB",
+        "price": 50.46,
+        "currency": "USD",
+        "inStock": false,
+        "category": "storage",
+        "brand": "Crucial",
+        "rating": 4.2,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-252",
+        "title": "Corsair Gaming Mouse",
+        "price": 33.82,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Corsair",
+        "rating": 3.8,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-253",
+        "title": "Dell 34\" Ultrawide Monitor",
+        "price": 170.35,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "Dell",
+        "rating": 4.4,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-254",
+        "title": "Kingston SATA SSD 1TB",
+        "price": 61.1,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "Kingston",
+        "rating": 4.5,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-255",
+        "title": "Keychron RGB Mouse Pad",
+        "price": 44.01,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Keychron",
+        "rating": 4.6,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-256",
+        "title": "Acer 27\" IPS Monitor",
+        "price": 200.1,
+        "currency": "USD",
+        "inStock": false,
+        "category": "displays",
+        "brand": "Acer",
+        "rating": 4.2,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-257",
+        "title": "Samsung External SSD 2TB",
+        "price": 71.45,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "Samsung",
+        "rating": 4.8,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-258",
+        "title": "Razer Wireless Mouse",
+        "price": 55.2,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Razer",
+        "rating": 4.5,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-259",
+        "title": "Samsung 32\" 4K Monitor",
+        "price": 230.46,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "Samsung",
+        "rating": 4.8,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-260",
+        "title": "WD Portable HDD 2TB",
+        "price": 82.39,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "WD",
+        "rating": 4.8,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-261",
+        "title": "Logitech Mechanical Keyboard",
+        "price": 65.53,
+        "currency": "USD",
+        "inStock": false,
+        "category": "peripherals",
+        "brand": "Logitech",
+        "rating": 4.9,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-262",
+        "title": "LG 24\" IPS Monitor",
+        "price": 260.27,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "LG",
+        "rating": 3.7,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-263",
+        "title": "Crucial NVMe SSD 1TB",
+        "price": 92.57,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "Crucial",
+        "rating": 3.7,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-264",
+        "title": "Corsair Wired Keyboard",
+        "price": 75.9,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Corsair",
+        "rating": 3.8,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-265",
+        "title": "Dell 27\" Gaming Monitor",
+        "price": 290.49,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "Dell",
+        "rating": 4.0,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-266",
+        "title": "Kingston External SSD 1TB",
+        "price": 103.23,
+        "currency": "USD",
+        "inStock": false,
+        "category": "storage",
+        "brand": "Kingston",
+        "rating": 4.0,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-267",
+        "title": "Keychron Gaming Mouse",
+        "price": 86.57,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Keychron",
+        "rating": 3.9,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-268",
+        "title": "Acer 34\" Ultrawide Monitor",
+        "price": 320.76,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "Acer",
+        "rating": 3.9,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-269",
+        "title": "Samsung SATA SSD 1TB",
+        "price": 113.9,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "Samsung",
+        "rating": 4.3,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-270",
+        "title": "Razer RGB Mouse Pad",
+        "price": 96.83,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Razer",
+        "rating": 4.5,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-271",
+        "title": "Samsung 27\" IPS Monitor",
+        "price": 350.55,
+        "currency": "USD",
+        "inStock": false,
+        "category": "displays",
+        "brand": "Samsung",
+        "rating": 4.3,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-272",
+        "title": "WD External SSD 2TB",
+        "price": 123.78,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "WD",
+        "rating": 4.5,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-273",
+        "title": "Logitech Wireless Mouse",
+        "price": 107.93,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Logitech",
+        "rating": 4.6,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-274",
+        "title": "LG 32\" 4K Monitor",
+        "price": 380.53,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "LG",
+        "rating": 4.8,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-275",
+        "title": "Crucial Portable HDD 2TB",
+        "price": 134.45,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "Crucial",
+        "rating": 4.7,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-276",
+        "title": "Corsair Mechanical Keyboard",
+        "price": 30.91,
+        "currency": "USD",
+        "inStock": false,
+        "category": "peripherals",
+        "brand": "Corsair",
+        "rating": 4.7,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-277",
+        "title": "Dell 24\" IPS Monitor",
+        "price": 160.44,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "Dell",
+        "rating": 5.0,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-278",
+        "title": "Kingston NVMe SSD 1TB",
+        "price": 57.37,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "Kingston",
+        "rating": 3.6,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-279",
+        "title": "Keychron Wired Keyboard",
+        "price": 40.69,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Keychron",
+        "rating": 3.5,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-280",
+        "title": "Acer 27\" Gaming Monitor",
+        "price": 190.78,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "Acer",
+        "rating": 3.8,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-281",
+        "title": "Samsung External SSD 1TB",
+        "price": 68.33,
+        "currency": "USD",
+        "inStock": false,
+        "category": "storage",
+        "brand": "Samsung",
+        "rating": 3.8,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-282",
+        "title": "Razer Gaming Mouse",
+        "price": 51.17,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Razer",
+        "rating": 3.9,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-283",
+        "title": "Samsung 34\" Ultrawide Monitor",
+        "price": 220.17,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "Samsung",
+        "rating": 4.1,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-284",
+        "title": "WD SATA SSD 1TB",
+        "price": 78.67,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "WD",
+        "rating": 4.0,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-285",
+        "title": "Logitech RGB Mouse Pad",
+        "price": 62.34,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Logitech",
+        "rating": 4.3,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-286",
+        "title": "LG 27\" IPS Monitor",
+        "price": 250.92,
+        "currency": "USD",
+        "inStock": false,
+        "category": "displays",
+        "brand": "LG",
+        "rating": 4.1,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-287",
+        "title": "Crucial External SSD 2TB",
+        "price": 88.99,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "Crucial",
+        "rating": 4.2,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-288",
+        "title": "Corsair Wireless Mouse",
+        "price": 72.09,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Corsair",
+        "rating": 4.2,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-289",
+        "title": "Dell 32\" 4K Monitor",
+        "price": 280.15,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "Dell",
+        "rating": 4.8,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-290",
+        "title": "Kingston Portable HDD 2TB",
+        "price": 99.49,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "Kingston",
+        "rating": 4.7,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-291",
+        "title": "Keychron Mechanical Keyboard",
+        "price": 83.01,
+        "currency": "USD",
+        "inStock": false,
+        "category": "peripherals",
+        "brand": "Keychron",
+        "rating": 4.8,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-292",
+        "title": "Acer 24\" IPS Monitor",
+        "price": 310.38,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "Acer",
+        "rating": 4.6,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-293",
+        "title": "Samsung NVMe SSD 1TB",
+        "price": 110.19,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "Samsung",
+        "rating": 3.5,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-294",
+        "title": "Razer Wired Keyboard",
+        "price": 93.41,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Razer",
+        "rating": 4.9,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-295",
+        "title": "Samsung 27\" Gaming Monitor",
+        "price": 340.97,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "Samsung",
+        "rating": 3.5,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-296",
+        "title": "WD External SSD 1TB",
+        "price": 120.23,
+        "currency": "USD",
+        "inStock": false,
+        "category": "storage",
+        "brand": "WD",
+        "rating": 3.8,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-297",
+        "title": "Logitech Gaming Mouse",
+        "price": 104.27,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Logitech",
+        "rating": 3.6,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-298",
+        "title": "LG 34\" Ultrawide Monitor",
+        "price": 370.7,
+        "currency": "USD",
+        "inStock": true,
+        "category": "displays",
+        "brand": "LG",
+        "rating": 4.0,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-299",
+        "title": "Crucial SATA SSD 1TB",
+        "price": 130.68,
+        "currency": "USD",
+        "inStock": true,
+        "category": "storage",
+        "brand": "Crucial",
+        "rating": 3.7,
+        "images": [
+          "#"
+        ]
+      },
+      {
+        "id": "p-300",
+        "title": "Corsair RGB Mouse Pad",
+        "price": 114.87,
+        "currency": "USD",
+        "inStock": true,
+        "category": "peripherals",
+        "brand": "Corsair",
+        "rating": 3.8,
+        "images": [
+          "#"
+        ]
+      }
+    ]
+  }
+}
