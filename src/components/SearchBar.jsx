@@ -1,11 +1,15 @@
 import { useState } from "react";
+import { useDispatch } from "react-redux";
+import { createTodo } from "../features/todoSlice";
 
-export function SearchBar({ createTodo }) {
+export function SearchBar() {
   const [todoText, setTodoText] = useState("");
+  const dispatch = useDispatch();
   function handleSubmit(e) {
     e.preventDefault();
     e.currentTarget.reset();
-    createTodo(todoText);
+    dispatch(createTodo(todoText));
+    setTodoText("");
   }
   return (
     <header className="w-full lg:mb-5">
