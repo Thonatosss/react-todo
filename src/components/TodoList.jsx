@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { useState } from "react";
 import { TotalTodos } from "./TotalTodos";
 import { AiOutlineCheckCircle } from "react-icons/ai";
@@ -5,7 +6,7 @@ import { FiCircle } from "react-icons/fi";
 import { CiStar } from "react-icons/ci";
 import { FaStar } from "react-icons/fa";
 
-function TodoElement({
+const TodoElement = memo(function TodoElement({
   todoData,
   deleteTodo,
   markAsDone,
@@ -22,7 +23,8 @@ function TodoElement({
       setEdit(false);
     }
   }
-
+  console.log("Render:", id);
+  
   return (
     <li
       className={`rounded-md ${
@@ -94,7 +96,8 @@ function TodoElement({
       )}
     </li>
   );
-}
+})
+
 
 export function TodoList({
   todos,
@@ -105,7 +108,6 @@ export function TodoList({
   addToFavourites,
 }) {
   const favourites = todos.filter(({ isFavourite }) => isFavourite);
-  console.log(favourites);
 
   return (
     <>

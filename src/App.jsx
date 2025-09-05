@@ -1,10 +1,9 @@
-import { nanoid } from 'nanoid'
+import { nanoid } from "nanoid";
 import { SearchBar } from "./components/SearchBar";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { TodoList } from "./components/TodoList";
 import { Title } from "./components/Title";
 import "./App.css";
-
 
 function App() {
   const [todoList, setTodo] = useState(() => {
@@ -19,7 +18,7 @@ function App() {
     localStorage.setItem("todos", JSON.stringify(todoList));
   }, [todoList]);
 
-  function createTodo(text) {
+  const createTodo = useCallback((text) => {
     if (!text) return;
     setTodo((prev) => {
       const normalizedText = text.trim();
@@ -28,34 +27,55 @@ function App() {
 
       return [
         ...prev,
-        { id: nanoid(), todoText: text.trim(), isDone: false, isFavourite: false },
+        {
+          id: nanoid(),
+          todoText: text.trim(),
+          isDone: false,
+          isFavourite: false,
+        },
       ];
     });
-  }
-  function handleDelete(todoId) {
-    setTodo((prev) => prev.filter(({ id }) => id !== todoId));
-  }
-  function setDone(todoId) {
+  }, []);
+
+  const handleDelete = useCallback(
+    (todoId) => setTodo((prev) => prev.filter(({ id }) => id !== todoId)),
+    []
+  );
+
+  const setDone = useCallback((todoId) => {
     setTodo((prev) =>
-      prev.map(({id, todoText, isDone, isFavourite }) =>
-        id === todoId ? { id, todoText, isDone: !isDone, isFavourite } : {id, todoText, isDone, isFavourite }
+      prev.map((todo) =>
+        todo.id === todoId
+          ? {
+              ...todo,
+              isDone: !todo.isDone,
+            }
+          : todo
       )
     );
-  }
-  function editTodo(todoID, text) {
+  }, []);
+
+  const editTodo = useCallback((todoID, text) => {
     setTodo((prev) =>
       prev.map((todo) =>
         todo.id === todoID ? { ...todo, todoText: text.trim() } : todo
       )
     );
-  }
-  function handleCompleted() {
-    setTodo((prev) => prev.filter(({ isDone }) => isDone !== true));
-  }
+  }, []);
 
-  function addToFavourites (id) {
-    setTodo(prev => prev.map((todo) => todo.id === id ? {...todo, isFavourite: !todo.isFavourite} : todo))
-  }
+  const addToFavourites = useCallback(
+    (id) =>
+      setTodo((prev) =>
+        prev.map((todo) =>
+          todo.id === id ? { ...todo, isFavourite: !todo.isFavourite } : todo
+        )
+      ),
+    []
+  );
+  const handleCompleted = useCallback(
+    () => setTodo((prev) => prev.filter(({ isDone }) => isDone !== true)),
+    []
+  );
   return (
     <div className=" p-3 flex flex-col items-center font-jet-brains rounded-3xl relative z-10 lg:p-30">
       <Title>Todo App</Title>
