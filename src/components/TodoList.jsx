@@ -29,9 +29,9 @@ const TodoElement = memo(function TodoElement({ todoData }) {
     <li
       className={`rounded-md ${
         isDone
-          ? "bg-green-100 text-gray-500"
+          ? "bg-[#7542c4] text-white"
           : "bg-transparent text-text-primary"
-      } p-2 relative lg:p-4 border-purple-950/60 border w-full`}
+      } p-2 relative lg:p-4 border-purple-950/60 border w-full transition duration-300 ease-in`}
     >
       {isEditing ? (
         <div className="flex justify-between gap-1">
@@ -42,13 +42,13 @@ const TodoElement = memo(function TodoElement({ todoData }) {
           ></input>
           <div className="flex gap-1 text-white">
             <button
-              className="font-jet-brains cursor-pointer bg-button-color w-12 rounded-sm text-sm sm:w-15 lg:w-20 lg:text-base xl:w-22 "
+              className="font-jet-brains cursor-pointer bg-button-color w-12 rounded-sm text-sm sm:w-15 lg:w-20 lg:text-base xl:w-22transition duration-300 ease-in-out  hover:bg-[#7542c4] hover:shadow-[0px_0px_38px_15px_rgba(70,34,109,1)] "
               onClick={() => handleSave()}
             >
               Save
             </button>
             <button
-              className="font-jet-brains cursor-pointer bg-button-color w-12 rounded-sm text-sm sm:w-15 lg:w-20 lg:text-base xl:w-22 "
+              className="font-jet-brains cursor-pointer bg-button-color w-12 rounded-sm text-sm sm:w-15 lg:w-20 lg:text-base xl:w-22transition duration-300 ease-in-out  hover:bg-[#7542c4] hover:shadow-[0px_0px_38px_15px_rgba(70,34,109,1)] "
               onClick={() => setEdit(false)}
             >
               Cancel
@@ -85,13 +85,13 @@ const TodoElement = memo(function TodoElement({ todoData }) {
           <div className="flex gap-1">
             {" "}
             <button
-              className="font-jet-brains cursor-pointer bg-button-color h-10 rounded-sm text-white w-12 text-sm sm:w-15 lg:w-20 lg:text-base xl:w-22  "
+              className="font-jet-brains cursor-pointer bg-button-color h-10 rounded-sm text-white w-12 text-sm sm:w-15 lg:w-20 lg:text-base xl:w-22 transition duration-300 ease-in-out  hover:bg-[#7542c4] hover:shadow-[0px_0px_38px_15px_rgba(70,34,109,1)] "
               onClick={() => dispatch(handleDelete(id))}
             >
               Delete
             </button>
             <button
-              className="font-jet-brains cursor-pointer bg-button-color h-10 rounded-sm text-white w-12 text-sm sm:w-15 lg:w-20 lg:text-base xl:w-22  "
+              className="font-jet-brains cursor-pointer bg-button-color h-10 rounded-sm text-white w-12 text-sm sm:w-15 lg:w-20 lg:text-base xl:w-22 transition duration-300 ease-in-out  hover:bg-[#7542c4] hover:shadow-[0px_0px_38px_15px_rgba(70,34,109,1)] "
               onClick={() => {
                 setNewText(todoText);
                 setEdit(true);

@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className=" p-3 flex flex-col items-center font-jet-brains rounded-3xl relative z-10 lg:p-30">
-      <Title>Todo App</Title>
+      <Title>Pulseboard</Title>
       <SearchBar />
       {todos.length > 0 && (
         <TodoList
