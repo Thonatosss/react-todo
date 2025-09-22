@@ -108,6 +108,7 @@ const TodoElement = memo(function TodoElement({ todoData }) {
 
 export function TodoList() {
   const todos = useSelector((state) => state.todo);
+  const active = todos.filter((todo) => !todo.deletedAt);
   const favourites = todos.filter(({ isFavourite }) => isFavourite);
   return (
     <>
@@ -115,7 +116,7 @@ export function TodoList() {
         {favourites.map((todo) => (
           <TodoElement key={todo.id} todoData={todo} />
         ))}
-        {todos.map(
+        {active.map(
           (todo) =>
             !todo.isFavourite && <TodoElement key={todo.id} todoData={todo} />
         )}
